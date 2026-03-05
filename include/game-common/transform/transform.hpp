@@ -6,9 +6,11 @@ namespace GameCommon {
         public:
             float x;
             float y;
-            float rotate;
             float scaleX;
             float scaleY;
+            float rotate;
+            float origin_x;
+            float origin_y;
     };
 }
 
