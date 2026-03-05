@@ -20,7 +20,7 @@ int main() {
     std::cout << transform.origin_x  << std::endl;
     std::cout << transform.origin_y  << std::endl;
 
-    GameCommon::DravableElement drawableElement;
+    GameCommon::DrawableElement drawableElement;
     drawableElement.rotate = 180.f;
     drawableElement.x = 200.f;
     drawableElement.y = 200.f;

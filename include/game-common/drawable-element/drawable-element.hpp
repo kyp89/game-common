@@ -3,7 +3,7 @@
 
 
 namespace GameCommon {
-    class DravableElement: public Transform {
+    class DrawableElement: public Transform {
         public:
             std::string img;
             int index;
