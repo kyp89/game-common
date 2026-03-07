@@ -1,3 +1,6 @@
+#ifndef DRAWABLE_ELEMENT_H
+#define DRAWABLE_ELEMENT_H
+
 #include <string>
 #include "../transform/transform.hpp"
 
@@ -9,3 +12,5 @@ namespace GameCommon {
             int index;
     };
 }
+
+#endif
