@@ -11,7 +11,8 @@ endif()
 
 # --- Biblioteka ---
 add_library(GameCommon
-    src/gameCommon.cpp
+    src/drawable-container.cpp
+    src/point2d.cpp
 )
 
 target_include_directories(GameCommon

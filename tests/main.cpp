@@ -87,6 +87,13 @@ int main() {
         e->y = 350;
     }
     drawableConatinerChild.print();
+
+    GameCommon::Point2D point2d_1;
+    std::cout << "Point 2D (1): x: " << point2d_1.x << ", y: " << point2d_1.y << std::endl;
+
+    GameCommon::Point2D point2d_2(100, 200);
+    std::cout << "Point 2D (1): x: " << point2d_2.x << ", y: " << point2d_2.y << std::endl;
+
     char val;
     std::cin >> val;
 
