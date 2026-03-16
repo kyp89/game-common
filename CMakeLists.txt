@@ -13,6 +13,7 @@ endif()
 add_library(GameCommon
     src/drawable-container.cpp
     src/point2d.cpp
+    src/collision.cpp
 )
 
 target_include_directories(GameCommon
